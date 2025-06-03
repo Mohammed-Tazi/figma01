@@ -416,3 +416,94 @@ html, body {
 .cart-btn img:hover {
   opacity: 1;
 }
+.contact-footer {
+  width: 100%;
+  background-color: #a1a17e;
+  padding: 60px 40px 40px;
+  color: white;
+  text-align: center;
+}
+
+
+.footer-content h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.footer-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #eee;
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+.footer-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 10px 26px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+/* Alignement horizontal logo + icônes */
+.footer-bottom {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  border-top: 1px solid transparent; /* juste pour espacement, pas visible */
+}
+
+/* Logo à gauche */
+.footer-logo {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.footer-logo span {
+  font-weight: normal;
+  color: #eee;
+}
+
+/* Icônes à droite */
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+
+.social-icons a img {
+  width: 24px;
+  height: 24px;
+  opacity: 0.9;
+  transition: opacity 0.3s;
+}
+
+.social-icons a:hover img {
+  opacity: 1;
+}
+/* Éliminer toutes les marges blanches */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
