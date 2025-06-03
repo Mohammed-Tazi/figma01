@@ -1,4 +1,4 @@
-/* ============ Global Reset ============ */
+/* ============ Reset & Base ============ */
 * {
   margin: 0;
   padding: 0;
@@ -60,7 +60,7 @@ html, body {
   background-color: white;
   padding: 40px;
   gap: 40px;
-  flex-wrap: wrap; /* permet l’adaptation sur petits écrans */
+  flex-wrap: wrap;
 }
 
 .hero-text {
@@ -106,7 +106,6 @@ html, body {
   width: fit-content;
 }
 
-/* ============ Hero Image ============ */
 .hero-image {
   flex: 1;
   display: flex;
@@ -128,4 +127,62 @@ html, body {
   margin: 20px 0;
   font-size: 13px;
   color: #333;
+}
+
+/* ============ Collection Cards Section ============ */
+.collection-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.card {
+  background-color: #f1f1f1;
+  border-radius: 12px;
+  padding: 30px 20px;
+  flex: 1;
+  min-width: 250px;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.card-label {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.card-btn {
+  padding: 10px 22px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.card img {
+  width: auto;
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
 }
