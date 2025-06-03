@@ -186,3 +186,24 @@ html, body {
   object-fit: cover;
   display: block;
 }
+.brand-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  background-color: white;
+}
+
+.brand-logos img {
+  max-height: 40px;
+  opacity: 0.6;
+  filter: grayscale(100%);
+  transition: opacity 0.3s ease;
+}
+
+.brand-logos img:hover {
+  opacity: 1;
+}
+s
