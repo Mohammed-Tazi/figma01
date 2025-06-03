@@ -309,5 +309,51 @@ html, body {
   border-radius: 4px;
 }
 
-.marker
+.design-section {
+  background-color: white;
+  padding: 60px 20px 40px;
+  text-align: center;
+}
+
+.design-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.design-text {
+  max-width: 400px;
+  text-align: left;
+}
+
+.design-text h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.design-text p {
+  font-size: 14px;
+  color: #444;
+}
+
+.design-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.design-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
 
